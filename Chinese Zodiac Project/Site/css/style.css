@@ -1,0 +1,174 @@
+/*
+* Font Types
+******************************/
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+
+/*
+* General Styling
+******************************/
+
+body {
+	font-family: 'Montserrat';
+	margin: 0px !important;
+}
+
+/*
+* Navigation Bar
+******************************/
+
+nav {
+	text-align: center;
+}
+
+nav .nav-logo {
+	margin-top: 4px;
+	margin-bottom: 9px;
+	height: 160px;
+}
+
+nav ul {
+	height: 55px;
+	width: 100%;
+	margin-left: 0x;
+	background-color: #f0f0f5;
+	line-height: 54px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	display: inline-block;
+	border-bottom: 5px solid #666;
+}
+
+nav li {
+	display: inline;
+}
+
+nav li a {
+	margin: 0px 10px;
+	display: inline;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	text-decoration: none;
+	color: #666;
+	-o-transition: color 0.3s linear;
+	-moz-transition: color 0.3s linear;
+	-khtml-transition: color 0.3s linear;
+	-webkit-transition: color 0.3s linear;
+	-ms-transition: color 0.3s linear;
+	transition: color 0.3s linear;
+}
+
+nav li a:hover {
+	color: #444;
+}
+
+nav .active {
+	color: #ef6c71 !important;
+	padding-bottom: 5px;
+	background-color: #eaeaea;
+	padding: 19px 14px;
+	font-weight: bold;
+}
+
+/*
+* Content Section
+******************************/
+
+.content {
+	background-color: #f9f8f8;
+	height: 1000px;
+}
+
+.info-section {
+	padding: 35px;
+	height: 880px;
+	background-color: #fff;
+	padding-top: 35px;
+	margin-left: 7%;
+	margin-right: 7%;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);;
+}
+
+.info-section h1 {
+	color: #444;
+	text-align: center;
+}
+
+.info-section i {
+	color: #777;
+	text-align: center;
+}
+
+.info-section hr {
+	color: #444;
+	text-align: center;
+	border: none;
+	border: 1px solid #f0f0f5;
+}
+
+/*
+* Contact Form Styling
+******************************/
+
+.contact-form {
+	margin: 0 auto;
+	width: 600px;
+	font-size: 17px;
+	text-align: right;
+	position: relative;
+	left: -76px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	color: #333;
+}
+
+.contact-form .name {
+  border: 2px solid #555;
+  height: 24px;
+  width: 420px;
+  margin-bottom: 14px;
+}
+
+.contact-form .email {
+  border: 2px solid #555;
+  height: 24px;
+  width: 420px;
+  margin-bottom: 14px;
+}
+
+.contact-form .message {
+  border: 2px solid #555;
+  height: 170px;
+  width: 420px;
+}
+
+#name {
+  position: relative;
+  bottom: 120px;
+}
+
+#email {
+  position: relative;
+  bottom: 95px;
+}
+
+#message {
+  position: relative;
+  bottom: 75px;
+}
+
+.btn {
+  float: left;
+  position: relative;
+  top: 14px;
+  padding: 11px 30px;
+  background-color: #989898;
+  border-radius: 9px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
